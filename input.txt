@@ -1,0 +1,75 @@
+#this is a Comment
+a0=()
+print(a0)
+print('Hello ECE')
+print ( )
+print(334)
+x=(1,2)
+y=34
+print(5 , 6, 7)
+print( x , 6, y)
+print( x , 6, y)
+print("Tuples")
+T1 =()
+x3=7
+T2=(x3,"Ann",("HELLO ALL",(2,4),50),5)
+print("T1 = empty tuple =", T1)
+print("T2 =", T2)
+print("T2[2] =", T2[2], "&", "T2[-2] =", T2[-2], "&", "T2[-4] =", T2[-4])
+plus_5 = 5
+minus_60 = -60
+print(plus_5)
+print( minus_60 )
+print("Strings")
+me="ha"
+sushi="ppiness"
+test=me+"ppiness"
+print("me + sushi =", test, ".")
+lol="ngry"
+print("What is it called when you are hungry and angry?")
+answer=me+lol
+print (answer)
+print("I am", 19, "years old.")
+print("Addition/Concatenation")
+SUM = 5+6 +9+ 80
+CONCAT= "indirect printing: " + "This project " + "was exhausting"+ " but awesome."
+print (SUM)
+print (CONCAT)
+print ( "direct printing:", "This project" , "was exhausting", "but awesome." )
+print("Tuples")
+T1=()
+T2=(3,"Ann",("HELLO ALL",(2,4),50),5)
+print("T1 = empty tuple =", T1)
+print("T2 =", T2)
+print ("T2[2] =", T2[2], "&", "T2[-2] =", T2[-2], "&", "T2[-4] =", T2[-4])
+print ( "T = () + (a,b) + (5, (c,d,e), 8) " )
+T3=("a", "b" )
+T4=( 5,("c", "d","e"),8)
+T =  ("a","b") + (5, ("c","d" ,"e"),8)
+print("T =", T)
+print("T[0] =", T[0])
+t17=T[1:4]+T[:2]
+print("T[1:4] =", T[1:4])
+print("T[:2] =", T[:2])
+print("T[3:] =",T[3:])
+print("add slices: ", t17)
+print("Negative", "Indices")
+print(T[1:-4],T[:-2],T[-3:])
+print ("advancedT (same as T but using variables only) = T1 + T3 + T4")
+advancedT = T1 + T3 + T4
+print("T1 =", T1, ",", "T3 =", T3, ",", "T4 =", T4)
+print("advancedT =", advancedT)
+advancedSlice = advancedT[1:4]
+print ("advancedT[1:4] =", advancedSlice)
+advancedSlice = T[:2]
+print("advancedT[:2] =", advancedSlice)
+advancedSlice = T[ 3:]
+print("advancedT[3:] =",advancedSlice)
+print("Unpacking")
+T=(1, "two" ,"THREE", 4,(5,5,5))
+(x1, x2 , x3, x4,x5 )= T
+print( x1, ",", x2 ,",", x3, ",",x4, ",", x5)
+x = (44, 5, "sdfsdf", (1, 2, "fff"))
+d = x
+t=(1,())
+print(t)
